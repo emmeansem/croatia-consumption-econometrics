@@ -12,14 +12,15 @@ import delimited croatia_macro.csv, clear
 describe
 summarize
 
-* Generate variables (optional, if needed)
-* Example: generate log_consumption = log(consumption)
+* Generate variables 
+* Example: generate LnCONSUMPTION = ln(consumption) 
 
 * Check stationarity
 dfuller consumption
-dfuller exports
+dfuller export
 dfuller gdp
 dfuller taxes
+dfuller import
 
 * Run regression model
 regress consumption exports gdp taxes
