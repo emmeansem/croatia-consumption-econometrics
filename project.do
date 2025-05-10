@@ -23,15 +23,9 @@ dfuller taxes
 dfuller import
 
 * Run regression model
-regress consumption exports gdp taxes
+regress consumption export gdp taxes import
 
-* Save regression results
-outreg2 using results.doc, replace
-
-* Plot consumption vs exports
-twoway (scatter consumption exports), title("Consumption vs Exports (1990–2023)")
-
-* Save graph
-graph export consumption_exports.png, replace
+* Graph example: Plot consumption vs exports
+twoway (tsline consumption export)
 
 * End of script
