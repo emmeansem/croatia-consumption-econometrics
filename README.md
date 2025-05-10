@@ -1,12 +1,10 @@
 # croatia-consumption-econometrics
 Understanding Consumption Patterns in Croatia Through Time Series Analysis
-# An Econometric Analysis of Consumption Drivers in Croatia (1990–2023)
-
 This project investigates the macroeconomic factors influencing consumption in Croatia using time series econometrics and Stata.
 
 ## Dataset
 
-Annual Croatian macroeconomic indicators (1990–2023), sourced Eurostat.
+Quarterly Croatian macroeconomic indicators (1990–2023), source: Eurostat.
 
 Variables included:
 - consumption 
@@ -25,17 +23,15 @@ Variables included:
 
 ## Key Findings
 
-- Both exports and GDP have a statistically significant positive effect on consumption.
+- All exports, imports, taxes and GDP have a statistically significant effect on consumption.
 - Exports show a particularly strong association with consumption trends in Croatia between 1990 and 2023.
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `croatia_macro.csv` | Clean dataset |
+| `croatia1.xltx` | Clean dataset |
 | `project.do` | Stata code |
-| `results.docx` | Regression outputs and findings |
-| `consumption_exports.png` | Graph — Consumption vs Exports |
 
 ## Tools Used
 
